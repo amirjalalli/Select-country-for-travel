@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('pic/191335.jpg');
+}
+
+.container{
+    display: grid;
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 850px;
+    justify-content: center;
+    align-content: center;  
+}
+.section-box{
+    display: grid;
+    height: 400px;
+    width: 720px;
+    background-color: rgba(250, 235, 215, 0.219);
+    grid-template-columns: repeat(8,90px);
+    grid-template-rows: repeat(4, 1fr);
+    align-self: center;
+    width: 100%;
+}
+
+
+
+
+.btn{
+    grid-column: 4/6;
+    grid-row: 4/5;
+    align-self: start;
+    font-size: 20x;
+    padding: 12px 9px;
+    color: white;
+    background-color: orange;
+    border-radius: 10px;
+    border: 1px solid orange;
+    transition: all .4s;
+}
+.btn:hover{
+    color: orange;
+    background-color: palegoldenrod;
+}
+.last-name{
+    grid-row: 1/2;
+    grid-column: 1/5;
+    align-self: center;
+    text-align: start;
+    justify-self: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:none;
+}
+.email{
+    grid-row: 2/3;
+    grid-column: 1/5;
+    align-self: center;
+    text-align: start;
+    justify-self: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:none;
+}
+.name{
+    grid-row: 1/2;
+    grid-column: 5/9;
+    align-self: center;
+    text-align: start;
+    justify-self: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:none;
+}
+.phone{
+    grid-row: 2/3;
+    grid-column: 5/9;
+    align-self: center;
+    text-align: start;
+    justify-self: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:none;
+}
+.countrySelect{
+    grid-row: 3/4;
+    grid-column: 1/5;
+    align-self: center;
+    text-align: start;
+    justify-self: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:none;
+}
+.citySelect{
+    grid-row: 3/4;
+    grid-column: 5/9;
+    align-self: center;
+    text-align: start;
+    justify-self: center;
+    padding: 10px 40px;
+    font-size: 15px;
+    border-radius: 10px;
+    border:none;
+}
